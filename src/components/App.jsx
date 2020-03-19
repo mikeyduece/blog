@@ -1,6 +1,5 @@
 // Dependencies
 import React from 'react'
-// Components
 
 const App = () => {
   return (
