@@ -19,4 +19,17 @@ class PostList extends Component {
   }
 }
 
+// const PostList = () => {
+//   const [posts, setPosts] = useState([])
+//   useEffect(() => {
+//     setPosts(fetchPosts())
+//   }, [])
+//
+//   return(
+//     <div>
+//       PostList
+//     </div>
+//   )
+// }
+
 export default connect(null, { fetchPosts })(PostList)
