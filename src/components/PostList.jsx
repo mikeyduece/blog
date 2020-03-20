@@ -21,7 +21,7 @@ class PostList extends Component {
 
             </div>
           </div>
-
+          <UserHeader userId={ post.userId } />
         </div>
       )
     })
@@ -30,7 +30,7 @@ class PostList extends Component {
   render() {
     return (
       <div className='ui relaxed divided list'>
-        {this.renderList()}
+        { this.renderList() }
       </div>
     )
   }
